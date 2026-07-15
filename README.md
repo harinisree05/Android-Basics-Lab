@@ -16,7 +16,7 @@ openURL.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
         Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("[https://www.google.com](https://www.google.com)"));
+        intent.setData(Uri.parse("https://www.google.com"));
         startActivity(intent);
     }
 });
